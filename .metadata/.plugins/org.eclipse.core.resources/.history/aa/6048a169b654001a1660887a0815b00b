@@ -1,0 +1,9 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		StudentAthlete sa1 = new StudentAthlete("Andrew", "Burger", 19, "Seattle", 32149, "IST", 3.64, "Baseball", 1);
+		Student s1 = new Student("Samantha", "Dearolf", 20, "New Jersey", 43284, "SMEAL", 3.77);
+		System.out.println(sa1.getInfo());
+	}
+}

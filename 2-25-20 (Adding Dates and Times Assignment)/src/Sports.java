@@ -1,0 +1,11 @@
+
+public enum Sports {
+	BASEBALL,
+	SOCCER,
+	SOFTBALL,
+	FOOTBALL,
+	DIVING,
+	SWIMMING,
+	WRESTLING,
+	VOLLEYBALL,	
+}

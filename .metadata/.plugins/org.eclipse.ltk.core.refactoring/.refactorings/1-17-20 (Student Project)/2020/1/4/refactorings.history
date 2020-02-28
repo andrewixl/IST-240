@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;1-24-20 (Using Complex Objects)/src/main&apos;&#x0D;&#x0A;- Original project: &apos;1-17-20 (Student Project)&apos;&#x0D;&#x0A;- Destination element: &apos;1-24-20 (Using Complex Objects)/src/main&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Student.java&#x0D;&#x0A;     Main.java" description="Copy compilation units" destination="=1-24-20 \(Using Complex Objects)/src&lt;main" element1="/src&lt;{Student.java" element2="/src&lt;{Main.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1579876303056" units="2" version="1.0"/>
+</session>
