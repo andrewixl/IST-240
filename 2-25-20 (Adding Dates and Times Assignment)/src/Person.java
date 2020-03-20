@@ -8,7 +8,11 @@ public class Person {
 	private String lastName;
 	private LocalDate dateOfBirth;
 	private String hometown;
-	private List<Address> addressList = new ArrayList<>();
+	private List<String> addressList = new ArrayList<>();
+	
+	public Person() {
+		
+	}
 	
 	public Person(String firstName, String lastName, String dateOfBirth, String hometown) {
 		this.firstName = firstName;
@@ -56,11 +60,20 @@ public class Person {
 		this.hometown = hometown;
 	}
 	
-	public List<Address> getAddressList() {
+	public List<String> getAddressList() {
 		return addressList;
 	}
 	
-	public void setAddressList(List<Address> addressList) {
+	public void setAddressList(List<String> addressList) {
 		this.addressList = addressList;
 	}
+	
+	public void addAddress(String streetName, String city, String country, int postalCode, AddressType addressType) {
+		Address address = new Address(streetName, city, country, postalCode, addressType);
+		addressList.add(address.toString());
+	}
+	
+	public String toString() { 
+        return firstName + " " + lastName + ", " + getAge(dateOfBirth) + ", " + hometown + " " + addressList.toString(); 
+    } 
 }
